@@ -12,10 +12,12 @@ const JsUser = {
 console.log(JsUser);
 
 console.log(JsUser.name);  // not good to use
+console.log(JsUser["name"]);
+
 // console.log(JsUser."full name");
 // console.log(JsUser.full name);
 console.log(JsUser["full name"]);
-console.log(JsUser["name"]);
+
 // console.log(JsUser.mykey);    // not defined like these
 console.log(JsUser[mykey]); 
 
