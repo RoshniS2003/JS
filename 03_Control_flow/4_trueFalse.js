@@ -14,3 +14,13 @@ if (email) {
 
 // truthy values:---->>>
 // "0" (string) , 'false', " "(space), {}, [], function(){} (no paramater) 
+
+
+// Nullish coalescing Operator (??):--->>> null undefined
+
+let val1;
+// val1 = 10 ?? 20;   // 10
+// val1 = 10 ?? null;   // 10
+// val1 = 10 ?? undefined;    // 10
+val1 = null ?? 10 ?? 25;   // 10
+console.log(val1);
