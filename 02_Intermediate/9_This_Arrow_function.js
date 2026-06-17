@@ -1,3 +1,4 @@
+/*
 // This function:---->>>
 const user = {
     username: "Roshni",
@@ -73,3 +74,32 @@ console.log(addTwoNum3(5, 3))   // undefined
 // correct-way
 const addTwoNum5 = (num1, num2) => ({username1:"rani"})
 console.log(addTwoNum5(5, 3))
+
+*/
+
+
+
+// jab hamko function ko reuse karna ho tab ham proper function banate hai kyunki hame function store karke rakhna hota hai(context chahiye hota hai)
+
+// agar hame function pure program me sirf ek bar run karna ho matlab function store karke rakhne ki jarurat nahi hai (Context ki need nahi  hai) tab arrow functon use karte hai
+
+
+// const response = (name)=>{
+//     return name;
+// }
+
+/*
+let add = (a,b) => {return a+b} //  arrow function shortcut (one - line,storing value)
+console.log(add(2,3))
+*/
+
+
+/*
+function add(a,b){
+    variable= a+b
+}
+add(2,3)
+console.log(variable)       // {long process for same task -> 1)function call , 2) stored in variable , 3)Print variable}  
+*/
+
+
