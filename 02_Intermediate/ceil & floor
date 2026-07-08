@@ -7,3 +7,4 @@ function getRandomIntInclusive(min, max) {
 
 // Example usage:
 console.log(getRandomIntInclusive(1, 10)); // Returns a whole number from 1 to 10
+console.log(min = Math.ceil(min)); // it will return ceiling values
