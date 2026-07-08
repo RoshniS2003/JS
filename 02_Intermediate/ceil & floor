@@ -1,0 +1,9 @@
+
+function getRandomIntInclusive(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Example usage:
+console.log(getRandomIntInclusive(1, 10)); // Returns a whole number from 1 to 10
