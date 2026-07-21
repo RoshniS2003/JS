@@ -7,3 +7,6 @@ let sum = number1 + number2;
 
 // Print the output
 console.log("The total is: " + sum);
+
+// This is the template of code
+
