@@ -1,0 +1,10 @@
+// Define a function that greets someone
+function greetUser(name) {
+    return "Hello, " + name + "! Welcome to JavaScript.";
+}
+
+// Call the function and save the result
+let message = greetUser("Alex");
+
+// Print the message
+console.log(message);
