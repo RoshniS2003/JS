@@ -1,0 +1,9 @@
+// Define two numbers
+let number1 = 5;
+let number2 = 10;
+
+// Calculate the total
+let sum = number1 + number2;
+
+// Print the output
+console.log("The total is: " + sum);
